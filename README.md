@@ -1,8 +1,8 @@
-Extensions :
-    -> Eslint
-    -> Prittier
-    -> JavaScript code snippet
-    -> Tailwindcss
+Extensions :<br>
+    -> Eslint<br>
+    -> Prittier<br>
+    -> JavaScript code snippet<br>
+    -> Tailwindcss<br>
 
 Node JavaScript
 
