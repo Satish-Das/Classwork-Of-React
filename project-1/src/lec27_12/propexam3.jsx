@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 
 class MyList extends React.Component {
     render() {
@@ -14,5 +15,8 @@ class MyList extends React.Component {
         );
     }
 }
+MyList.propTypes = {
+    items: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 
 export default MyList;
