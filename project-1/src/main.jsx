@@ -1,7 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Wrapper from "./lecture15_01/Wrapper";
+import ApiTesting from "./lecture16_01/useeffectexer";
+// import Wrapper from "./lecture15_01/Wrapper";
 // import MyComponent from './comp1';
 // import StateExample from './lec26_12/stateExam1'
 // import StateMerge from './lec26_12/stateMerge'
@@ -9,6 +10,6 @@ import Wrapper from "./lecture15_01/Wrapper";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Wrapper />
+    <ApiTesting />
   </StrictMode>
 );
